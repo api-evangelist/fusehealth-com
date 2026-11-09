@@ -1,4 +1,4 @@
-# fusehealth-com
+# FUSE Health
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,157 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fusehealth-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fusehealth.com/
+FUSE Health provides a white‑label telehealth infrastructure enabling operators to launch peptide brands and D2C telehealth businesses quickly. The platform offers licensed prescribers, pharmacy fulfillment, and a customizable patient portal, allowing businesses to go live in under seven days without a medical license. Over 50 operators already run their brands on FUSE, benefiting from integrated compliance, AI connectors, and robust API access.
+
+**Areas:** Telehealth · White-label · API · Platform · Healthcare · Peptide
+
+## FUSE Health on APIs.io
+
+Everything profiled for FUSE Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fusehealth-com/](https://apis.io/providers/fusehealth-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (30)
+
+- [FUSE Health Affiliate Program API](https://apis.io/apis/fusehealth-com/fusehealth-com-affiliate-program-api/) — Affiliate/referral module. Requires a plan that includes Affiliates, resolved from the key's clinic (403 AFFILIATES_TIER_REQUIRED otherwise). The brand pays…
+- [FUSE Health Auth & Key Management API](https://apis.io/apis/fusehealth-com/fusehealth-com-auth-key-management-api/) — Key management uses a brand-admin JWT (from /auth/signin), NOT an API key. Everything else uses x-api-key.
+- [FUSE Health Billing API](https://apis.io/apis/fusehealth-com/fusehealth-com-billing-api/) — The Billing API from FUSE Health — 9 operation(s) for billing.
+- [FUSE Health Checkout Sessions API](https://apis.io/apis/fusehealth-com/fusehealth-com-checkout-sessions-api/) — The Checkout Sessions API from FUSE Health — 2 operation(s) for checkout sessions.
+- [FUSE Health CRM · Connection API](https://apis.io/apis/fusehealth-com/fusehealth-com-crm-connection-api/) — Connect the brand's OWN CRM (GoHighLevel). Requires a plan that includes CRM integration (403 CRM_TIER_REQUIRED otherwise).
+- [FUSE Health CRM · Contacts API](https://apis.io/apis/fusehealth-com/fusehealth-com-crm-contacts-api/) — The CRM · Contacts API from FUSE Health — 4 operation(s) for crm · contacts.
+- [FUSE Health CRM · Sequences API](https://apis.io/apis/fusehealth-com/fusehealth-com-crm-sequences-api/) — The CRM · Sequences API from FUSE Health — 4 operation(s) for crm · sequences.
+- [FUSE Health CRM · Tags API](https://apis.io/apis/fusehealth-com/fusehealth-com-crm-tags-api/) — The CRM · Tags API from FUSE Health — 4 operation(s) for crm · tags.
+- [FUSE Health CRM · Templates API](https://apis.io/apis/fusehealth-com/fusehealth-com-crm-templates-api/) — The CRM · Templates API from FUSE Health — 4 operation(s) for crm · templates.
+- [FUSE Health Custom Website API](https://apis.io/apis/fusehealth-com/fusehealth-com-custom-website-api/) — Storefront/portal config (CustomWebsite). No PHI. logo-proxy is a CORS-convenience byte proxy.
+- [FUSE Health Customers API](https://apis.io/apis/fusehealth-com/fusehealth-com-customers-api/) — The Customers API from FUSE Health — 1 operation(s) for customers.
+- [FUSE Health Dashboard & Analytics API](https://apis.io/apis/fusehealth-com/fusehealth-com-dashboard-analytics-api/) — Clinic-level aggregates only (recent-activity is HIPAA-scrubbed). Reads take clinicId from the key, never the query.
+- [FUSE Health Developer Sandbox API](https://apis.io/apis/fusehealth-com/fusehealth-com-developer-sandbox-api/) — Moving a Developer Preview sandbox to a live brand. Sandbox keys only; a live brand's key is told it is already live.
+- [FUSE Health Forms & Global Products API](https://apis.io/apis/fusehealth-com/fusehealth-com-forms-global-products-api/) — Global-product intake-form builder (TenantProductForm rows).
+- [FUSE Health Intake Requests API](https://apis.io/apis/fusehealth-com/fusehealth-com-intake-requests-api/) — The Intake Requests API from FUSE Health — 1 operation(s) for intake requests.
+- [FUSE Health Misc / Uploads API](https://apis.io/apis/fusehealth-com/fusehealth-com-misc-uploads-api/) — The Misc / Uploads API from FUSE Health — 10 operation(s) for misc / uploads.
+- [FUSE Health Onboarding API](https://apis.io/apis/fusehealth-com/fusehealth-com-onboarding-api/) — The Onboarding API from FUSE Health — 5 operation(s) for onboarding.
+- [FUSE Health Orders API](https://apis.io/apis/fusehealth-com/fusehealth-com-orders-api/) — The Orders API from FUSE Health — 8 operation(s) for orders.
+- [FUSE Health Organization API](https://apis.io/apis/fusehealth-com/fusehealth-com-organization-api/) — The Organization API from FUSE Health — 11 operation(s) for organization.
+- [FUSE Health Organization & Clinic API](https://apis.io/apis/fusehealth-com/fusehealth-com-organization-clinic-api/) — Clinic settings: the clinic record, fee configuration, organization profile, SendGrid email-domain authentication and logo upload.
+- [FUSE Health Page Builder API](https://apis.io/apis/fusehealth-com/fusehealth-com-page-builder-api/) — The Page Builder API from FUSE Health — 5 operation(s) for page builder.
+- [FUSE Health Payouts & Refunds API](https://apis.io/apis/fusehealth-com/fusehealth-com-payouts-refunds-api/) — The Payouts & Refunds API from FUSE Health — 5 operation(s) for payouts & refunds.
+- [FUSE Health Products & Catalog API](https://apis.io/apis/fusehealth-com/fusehealth-com-products-catalog-api/) — The Products & Catalog API from FUSE Health — 14 operation(s) for products & catalog.
+- [FUSE Health Program Templates & Titration API](https://apis.io/apis/fusehealth-com/fusehealth-com-program-templates-titration-api/) — Shared FUSE catalogues (global by design — same posture as GET /config/fees). No clinic filter, no PHI.
+- [FUSE Health Programs API](https://apis.io/apis/fusehealth-com/fusehealth-com-programs-api/) — The program surface. Every /:id path is scoped to the key's clinic (404 on anything it does not own).
+- [FUSE Health Refund Requests API](https://apis.io/apis/fusehealth-com/fusehealth-com-refund-requests-api/) — Incoming patient-initiated refund-request triage. Approving a request moves real money.
+- [FUSE Health Support & Conversations API](https://apis.io/apis/fusehealth-com/fusehealth-com-support-conversations-api/) — Patient support threads + tickets. Contains patient PHI (authors + messages). Every handler 404s anything outside the key's clinic.
+- [FUSE Health Team & Users API](https://apis.io/apis/fusehealth-com/fusehealth-com-team-users-api/) — Brand-staff management — staff identity and 2FA status, and granting or revoking FUSE platform access.
+- [FUSE Health Treatments API](https://apis.io/apis/fusehealth-com/fusehealth-com-treatments-api/) — Legacy treatment surface (programs are the modern surface).
+- [FUSE Health Webhooks API](https://apis.io/apis/fusehealth-com/fusehealth-com-webhooks-api/) — The Webhooks API from FUSE Health — 2 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fusehealth Com Agentic Access](https://apis.io/agentic-access/fusehealth-com/fusehealth-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CheckoutSessionCreate](https://apis.io/schemas/fusehealth-com/fusehealth-com-checkout-session-create/)
+- [Contact](https://apis.io/schemas/fusehealth-com/fusehealth-com-contact/)
+- [CrmStatus](https://apis.io/schemas/fusehealth-com/fusehealth-com-crm-status/)
+- [OrderBrandView](https://apis.io/schemas/fusehealth-com/fusehealth-com-order-brand-view/)
+- [Product](https://apis.io/schemas/fusehealth-com/fusehealth-com-product/)
+- [ProgramOrderQuote](https://apis.io/schemas/fusehealth-com/fusehealth-com-program-order-quote/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fusehealth Com Context](https://apis.io/jsonld/fusehealth-com/fusehealth-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FUSE Health API Rules](https://apis.io/rules/fusehealth-com/fusehealth-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fusehealth Com Authentication](https://apis.io/security/fusehealth-com/fusehealth-com-authentication/)
+- [Fusehealth Com Domain Security](https://apis.io/security/fusehealth-com/fusehealth-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fusehealth Com Plans Pricing](https://apis.io/plans/fusehealth-com/fusehealth-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fusehealth.com/)
+- [Documentation](https://www.fusehealth.com/developers)
+- [API reference](https://www.fusehealth.com/developers/api)
+- [Pricing](https://www.fusehealth.com/pricing)
+- [Blog](https://www.fusehealth.com/blogs)
+- [Terms of service](https://www.fusehealth.com/terms-of-service)
+- [Privacy policy](https://www.fusehealth.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 54.3** — strong · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 59.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 59.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 19.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fusehealth-com/](https://apis.io/providers/fusehealth-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FUSE Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fusehealth-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
